@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/thinking-partner/session.schema.json",
+  "$id": "https://example.org/review-your-thinking/session.schema.json",
   "title": "Session Record",
   "description": "An immutable structured record created when a reflective conversation closes. It is not a transcript.",
   "type": "object",
@@ -56,4 +56,3 @@
     "next_entry_point": { "type": "string", "minLength": 1 }
   }
 }
-

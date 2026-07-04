@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="./assets/hero-en.svg" alt="Thinking Partner banner" width="100%" />
+  <img src="./assets/hero-en.svg" alt="Review Your Thinking banner" width="100%" />
 </p>
 
-<h1 align="center">Thinking Partner</h1>
+<h1 align="center">Review Your Thinking</h1>
 <p align="center"><strong>A self-retrospective skill for long-term AI conversations.</strong></p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 > Most AI tools help you get better answers.  
-> Thinking Partner helps you review how your questions, assumptions, definitions, and thinking models change over time.
+> Review Your Thinking helps you review how your questions, assumptions, definitions, and thinking models change over time.
 
 ## What it is — and what it is not
 
@@ -31,12 +31,12 @@
 
 AI is already good at answering questions. But after a long conversation, the useful part is often not the answer itself. It is how the user redefined the question, corrected an assumption, changed a concept, or formed a new working model.
 
-Thinking Partner keeps those changes inspectable across sessions without turning them into a hidden assessment of the user.
+Review Your Thinking keeps those changes inspectable across sessions without turning them into a hidden assessment of the user.
 
 ## How it works
 
 <p align="center">
-  <img src="./assets/workflow-en.svg" alt="How Thinking Partner works" width="100%" />
+  <img src="./assets/workflow-en.svg" alt="How Review Your Thinking works" width="100%" />
 </p>
 
 Past sessions are evidence records—not raw memory dumps, complete history, or final truth.
@@ -49,7 +49,7 @@ Past sessions are evidence records—not raw memory dumps, complete history, or 
 I have too many thoughts about work and freedom, but I don't know what I'm actually stuck on.
 ```
 
-Thinking Partner does not jump to career advice. It first makes the thought easier to inspect:
+Review Your Thinking does not jump to career advice. It first makes the thought easier to inspect:
 
 | Part | Working map |
 |---|---|
@@ -71,7 +71,7 @@ Freedom may mean having room to choose constraints, not having no constraints.
 ## Core concepts
 
 <p align="center">
-  <img src="./assets/memory-layers-en.svg" alt="Thinking Partner memory layers" width="100%" />
+  <img src="./assets/memory-layers-en.svg" alt="Review Your Thinking memory layers" width="100%" />
 </p>
 
 > **Thinking Profile is not what AI thinks about the user.**  
@@ -107,12 +107,12 @@ python scripts/memory_store.py validate
 
 | Command | Result |
 |---|---|
-| `init` | Creates the local `.thinking-partner/` memory store. |
+| `init` | Creates the local `.review-your-thinking/` memory store. |
 | `close` | Saves a structured Session Record and its pending Patch. |
 | `review` | Prepares `past-review-draft.md` from selected Session Records; it does not interpret or confirm them. |
 | `validate` | Checks store structure, revisions, statuses, and basic evidence links. |
 
-User data stays under `.thinking-partner/` and is ignored by Git.
+User data stays under `.review-your-thinking/` and is ignored by Git.
 
 ## Repository structure
 

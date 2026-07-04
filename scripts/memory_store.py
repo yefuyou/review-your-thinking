@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal local memory store for the Thinking Partner skill."""
+"""Minimal local memory store for the Review Your Thinking skill."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ try:
     import yaml
 except ModuleNotFoundError:
     print(
-        "Thinking Partner requires PyYAML. Install it with: "
+        "Review Your Thinking requires PyYAML. Install it with: "
         "python -m pip install PyYAML",
         file=sys.stderr,
     )
@@ -1006,13 +1006,13 @@ def command_apply(data_dir: Path, patch_path: Path) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Manage a local Thinking Partner memory store."
+        description="Manage a local Review Your Thinking memory store."
     )
     parser.add_argument(
         "--data-dir",
         type=Path,
-        default=Path(".thinking-partner"),
-        help="User data directory (default: .thinking-partner in the current directory)",
+        default=Path(".review-your-thinking"),
+        help="User data directory (default: .review-your-thinking in the current directory)",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
     subparsers.add_parser("init", help="Initialize a local memory store")

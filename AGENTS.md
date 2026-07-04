@@ -1,6 +1,6 @@
 # Codex Project Guidance
 
-This file applies to the entire repository. Use it when developing, maintaining, reviewing, or testing Thinking Partner with Codex.
+This file applies to the entire repository. Use it when developing, maintaining, reviewing, or testing Review Your Thinking with Codex.
 
 ## Document roles
 
@@ -14,7 +14,7 @@ Keep these three documents distinct:
 
 ## Project goal
 
-Thinking Partner is a self-retrospective skill for long-term AI conversations.
+Review Your Thinking is a self-retrospective skill for long-term AI conversations.
 
 It helps users review how their questions, assumptions, definitions, and thinking models change over time. It does not try to give users better answers directly.
 
@@ -66,4 +66,4 @@ Do not claim validation passed unless the relevant commands and acceptance check
 
 ## Change discipline
 
-Make the smallest change that satisfies the request. Preserve user data separation under `.thinking-partner/`, keep runtime data out of Git, and avoid unrelated cleanup.
+Make the smallest change that satisfies the request. Preserve user data separation under `.review-your-thinking/`, keep runtime data out of Git, and avoid unrelated cleanup.

@@ -1,6 +1,6 @@
 # Safety Boundaries
 
-Thinking Partner supports reflective organization. It is not a clinical, diagnostic, or emergency service.
+Review Your Thinking supports reflective organization. It is not a clinical, diagnostic, or emergency service.
 
 ## Prohibited interpretations
 
@@ -25,7 +25,7 @@ Never convert distress, a crisis statement, or a temporary emotional state into 
 
 ## Crisis boundary
 
-Thinking Partner does not replace crisis intervention. If the user expresses immediate danger, intent to self-harm or harm another person, or inability to stay safe:
+Review Your Thinking does not replace crisis intervention. If the user expresses immediate danger, intent to self-harm or harm another person, or inability to stay safe:
 
 1. pause the normal ORIENT/MAP/PROBE workflow;
 2. respond directly and calmly;
@@ -38,4 +38,3 @@ Do not conduct an extended diagnostic interview. Do not imply that the Skill can
 ## Tone
 
 Use clear, nonjudgmental language. Do not dramatize ordinary uncertainty, and do not minimize explicit danger. State the limits of the Skill without abandoning the user conversationally.
-

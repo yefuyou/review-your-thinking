@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/thinking-partner/patch.schema.json",
+  "$id": "https://example.org/review-your-thinking/patch.schema.json",
   "title": "Thinking Profile Patch",
   "description": "A reviewable set of proposed changes to a Thinking Profile.",
   "type": "object",
@@ -68,4 +68,3 @@
     }
   }
 }
-

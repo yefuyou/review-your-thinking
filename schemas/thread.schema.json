@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/thinking-partner/thread.schema.json",
+  "$id": "https://example.org/review-your-thinking/thread.schema.json",
   "title": "Thinking Thread",
   "description": "One concrete line of inquiry that can continue across sessions.",
   "type": "object",
@@ -53,4 +53,3 @@
     }
   }
 }
-

@@ -1,9 +1,9 @@
 ---
-name: thinking-partner
+name: review-your-thinking
 description: Help users review and refine how their questions, assumptions, definitions, tensions, and thinking models change across long-running conversations. Use when a user wants to untangle ideas, review one or more explicitly provided or saved past Session Records, compare current and earlier framing, continue a prior line of thought, maintain a user-confirmed Thinking Profile, or close a reflective session into an auditable local memory record. Do not use for psychological diagnosis, personality typing, crisis-care substitution, or authoritative life advice.
 ---
 
-# Thinking Partner
+# Review Your Thinking
 
 Treat the user as the authority on what represents their thinking. Help the user make their thinking more inspectable without deciding who the user is.
 
@@ -89,7 +89,7 @@ Use this sequence:
 ORIENT -> LOAD_RELEVANT_HISTORY -> REVIEW_PAST -> MAP -> PROBE -> REFRAME -> CLOSE
 ```
 
-1. Read only relevant Session Records that the user explicitly provided, imported, or saved under `.thinking-partner/sessions/`.
+1. Read only relevant Session Records that the user explicitly provided, imported, or saved under `.review-your-thinking/sessions/`.
 2. Do not imply access to all historical conversations.
 3. Compare initial framing, final framing, claims, definitions, assumptions, questions, and tensions.
 4. Cite Session ids for every historical observation.
@@ -101,7 +101,7 @@ Use `python scripts/memory_store.py review <session-files...>` only to prepare s
 
 ## Memory rules
 
-Keep Skill files separate from user data. Store user data under `.thinking-partner/` in the active workspace unless the user explicitly chooses another location.
+Keep Skill files separate from user data. Store user data under `.review-your-thinking/` in the active workspace unless the user explicitly chooses another location.
 
 Do not save full chat transcripts. Save only structured session summaries and one to three short quote anchors that were actually written by the user. Never present an AI paraphrase as a user quote.
 

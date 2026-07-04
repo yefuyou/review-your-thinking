@@ -4,14 +4,14 @@ Memory exists to preserve continuity without turning conversation history into a
 
 ## Program and data separation
 
-Keep Skill files in the project or installed Skill directory. Keep user data in `.thinking-partner/` under the active workspace by default.
+Keep Skill files in the project or installed Skill directory. Keep user data in `.review-your-thinking/` under the active workspace by default.
 
 Never store user Profile data inside `SKILL.md`, `references/`, `schemas/`, `scripts/`, or `examples/`. Skill upgrades must not overwrite user memory.
 
 The default data layout is:
 
 ```text
-.thinking-partner/
+.review-your-thinking/
 ├── profile.yaml
 ├── threads.yaml
 ├── pending-profile-patch.yaml
@@ -72,7 +72,7 @@ When the record is missing or ambiguous, say so. Do not fill gaps with invented 
 
 ## Past Conversation Review
 
-Treat past Session Records as evidence records, not raw memory dumps and not final truth. Review only records that the user explicitly provides, imports, or has saved under `.thinking-partner/sessions/`. Never claim access to conversations outside that set.
+Treat past Session Records as evidence records, not raw memory dumps and not final truth. Review only records that the user explicitly provides, imports, or has saved under `.review-your-thinking/sessions/`. Never claim access to conversations outside that set.
 
 For one-session review:
 

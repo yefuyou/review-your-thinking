@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/thinking-partner/profile.schema.json",
+  "$id": "https://example.org/review-your-thinking/profile.schema.json",
   "title": "Thinking Profile",
   "description": "The user's current, explicitly confirmed collection of revisable long-term thinking models.",
   "type": "object",
@@ -166,4 +166,3 @@
     }
   }
 }
-

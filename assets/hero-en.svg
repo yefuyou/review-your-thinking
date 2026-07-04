@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
-  <title id="title">Thinking Partner</title>
+  <title id="title">Review Your Thinking</title>
   <desc id="desc">A warm editorial timeline showing observations becoming proposed and user-confirmed thinking models.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -18,7 +18,7 @@
     <circle cx="90" cy="79" r="6" fill="#E97862"/>
     <text x="106" y="84" font-size="13" font-weight="700" letter-spacing="1.1" fill="#8E5A7D">SELF-RETROSPECTIVE AI SKILL</text>
 
-    <text x="68" y="184" font-size="62" font-weight="720" letter-spacing="-2" fill="#1F2430">Thinking Partner</text>
+    <text x="68" y="184" font-size="52" font-weight="720" letter-spacing="-1.5" fill="#1F2430">Review Your Thinking</text>
     <text x="68" y="235" font-size="25" font-weight="450" fill="#6B6470">Review how your thinking changes over time.</text>
 
     <rect x="68" y="292" width="414" height="74" rx="16" fill="#FFFFFF" stroke="#E8D8C8"/>
@@ -54,4 +54,3 @@
     </g>
   </g>
 </svg>
-
