@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Memory Layers</title>
+  <desc id="desc">Four memory layers with Thinking Profile highlighted as user-confirmed and revisable.</desc>
+
+  <rect width="1200" height="650" rx="28" fill="#FFF9EF"/>
+  <rect x="1" y="1" width="1198" height="648" rx="27" fill="none" stroke="#E8D8C8" stroke-width="2"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+    <text x="64" y="70" font-size="34" font-weight="720" letter-spacing="-0.8" fill="#1F2430">Memory Layers</text>
+    <text x="64" y="98" font-size="16" fill="#6B6470">Different jobs, different lifetimes, one visible evidence chain.</text>
+
+    <line x1="92" y1="168" x2="92" y2="504" stroke="#D9C7D7" stroke-width="3"/>
+
+    <g>
+      <circle cx="92" cy="174" r="12" fill="#F4C84A"/>
+      <rect x="124" y="126" width="566" height="96" rx="18" fill="#FFFFFF" stroke="#E8D8C8"/>
+      <rect x="124" y="126" width="8" height="96" rx="4" fill="#F4C84A"/>
+      <text x="158" y="164" font-size="20" font-weight="700" fill="#1F2430">Working State</text>
+      <text x="158" y="194" font-size="15" fill="#6B6470">Current-session problem map and temporary restructuring.</text>
+      <text x="598" y="164" font-size="12" font-weight="700" letter-spacing="0.8" fill="#8E5A7D">TEMPORARY</text>
+    </g>
+
+    <g>
+      <circle cx="92" cy="284" r="12" fill="#F7B7C8"/>
+      <rect x="124" y="236" width="566" height="96" rx="18" fill="#FFFFFF" stroke="#E8D8C8"/>
+      <rect x="124" y="236" width="8" height="96" rx="4" fill="#F7B7C8"/>
+      <text x="158" y="274" font-size="20" font-weight="700" fill="#1F2430">Session Record</text>
+      <text x="158" y="304" font-size="15" fill="#6B6470">Immutable summary of one finished conversation.</text>
+      <text x="602" y="274" font-size="12" font-weight="700" letter-spacing="0.8" fill="#8E5A7D">EVIDENCE</text>
+    </g>
+
+    <g>
+      <circle cx="92" cy="394" r="13" fill="#8E5A7D"/>
+      <rect x="124" y="346" width="566" height="96" rx="18" fill="#FFFFFF" stroke="#8E5A7D" stroke-width="2"/>
+      <rect x="124" y="346" width="8" height="96" rx="4" fill="#8E5A7D"/>
+      <text x="158" y="384" font-size="20" font-weight="750" fill="#1F2430">Thinking Profile</text>
+      <text x="158" y="414" font-size="15" fill="#6B6470">User-confirmed long-term thinking models.</text>
+      <rect x="556" y="366" width="106" height="28" rx="14" fill="#EEE9F3"/>
+      <text x="575" y="385" font-size="12" font-weight="750" letter-spacing="0.7" fill="#8E5A7D">CONFIRMED</text>
+    </g>
+
+    <g>
+      <circle cx="92" cy="504" r="12" fill="#E97862"/>
+      <rect x="124" y="456" width="566" height="96" rx="18" fill="#FFFFFF" stroke="#E8D8C8"/>
+      <rect x="124" y="456" width="8" height="96" rx="4" fill="#E97862"/>
+      <text x="158" y="494" font-size="20" font-weight="700" fill="#1F2430">Change Log</text>
+      <text x="158" y="524" font-size="15" fill="#6B6470">Traceable record of updates, revisions, and retirements.</text>
+      <text x="582" y="494" font-size="12" font-weight="700" letter-spacing="0.8" fill="#8E5A7D">AUDITABLE</text>
+    </g>
+
+    <g>
+      <rect x="758" y="132" width="378" height="420" rx="24" fill="#FFFFFF" stroke="#E8D8C8"/>
+      <circle cx="814" cy="188" r="25" fill="#FCE7E2"/>
+      <path d="M 803 188 L 811 196 L 827 178" fill="none" stroke="#E97862" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="858" y="183" font-size="13" font-weight="750" letter-spacing="1" fill="#8E5A7D">CORE CONTRACT</text>
+      <text x="858" y="207" font-size="15" fill="#6B6470">The user remains the authority.</text>
+
+      <line x1="798" y1="236" x2="1096" y2="236" stroke="#E8D8C8"/>
+
+      <text x="798" y="286" font-size="21" font-weight="700" fill="#1F2430">
+        <tspan x="798" dy="0">Thinking Profile is not</tspan>
+        <tspan x="798" dy="30">what AI thinks about</tspan>
+        <tspan x="798" dy="30">the user.</tspan>
+      </text>
+
+      <rect x="798" y="382" width="298" height="108" rx="16" fill="#FFF9EF" stroke="#F4C84A"/>
+      <text x="820" y="418" font-size="17" font-weight="650" fill="#1F2430">
+        <tspan x="820" dy="0">It is what the user confirms</tspan>
+        <tspan x="820" dy="26">and may revise later.</tspan>
+      </text>
+      <circle cx="820" cy="468" r="5" fill="#F4C84A"/>
+      <circle cx="838" cy="468" r="5" fill="#F7B7C8"/>
+      <circle cx="856" cy="468" r="5" fill="#B8A6C9"/>
+    </g>
+
+    <text x="64" y="610" font-size="13" fill="#6B6470">Session ids provide provenance. Revision checks prevent stale writes.</text>
+  </g>
+</svg>
+

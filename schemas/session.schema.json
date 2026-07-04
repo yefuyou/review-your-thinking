@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/thinking-partner/session.schema.json",
+  "title": "Session Record",
+  "description": "An immutable structured record created when a reflective conversation closes. It is not a transcript.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "session_id",
+    "created_at",
+    "linked_thread",
+    "user_initial_framing",
+    "user_final_framing",
+    "key_claims",
+    "changed_definitions",
+    "unresolved_tensions",
+    "user_quote_anchors",
+    "proposed_profile_patch",
+    "next_entry_point"
+  ],
+  "properties": {
+    "session_id": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "format": "date-time" },
+    "linked_thread": { "type": ["string", "null"] },
+    "user_initial_framing": { "type": "string", "minLength": 1 },
+    "user_final_framing": { "type": "string", "minLength": 1 },
+    "key_claims": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "changed_definitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["term", "before", "after"],
+        "properties": {
+          "term": { "type": "string", "minLength": 1 },
+          "before": { "type": ["string", "null"] },
+          "after": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "unresolved_tensions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "user_quote_anchors": {
+      "description": "One to three short verbatim excerpts written by the user. AI paraphrases are not allowed.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "proposed_profile_patch": { "$ref": "patch.schema.json" },
+    "next_entry_point": { "type": "string", "minLength": 1 }
+  }
+}
+

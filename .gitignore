@@ -1,0 +1,4 @@
+.thinking-partner/
+__pycache__/
+*.py[cod]
+

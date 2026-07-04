@@ -1,0 +1,17 @@
+id: thread-stability-freedom-work
+title: Stability and freedom at work
+status: active
+current_question: How much autonomy am I willing to exchange for a clearly defined level of security?
+current_framing: The issue is not stability versus freedom as a binary choice, but the minimum security boundary and the autonomy that remains negotiable.
+assumptions:
+  - More stability usually requires accepting some external constraints.
+tensions:
+  - security-versus-autonomy
+unknowns:
+  - What concrete conditions define the minimum acceptable security boundary?
+next_probe: Define the minimum security boundary using observable conditions.
+linked_models:
+  - model-negotiated-autonomy
+session_refs:
+  - session-2026-07-04-01
+

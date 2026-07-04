@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">记忆层次</title>
+  <desc id="desc">四层记忆结构，Thinking Profile 作为由用户确认并可继续修订的长期模型被突出显示。</desc>
+
+  <rect width="1200" height="650" rx="28" fill="#FFF9EF"/>
+  <rect x="1" y="1" width="1198" height="648" rx="27" fill="none" stroke="#E8D8C8" stroke-width="2"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Microsoft YaHei, PingFang SC, Noto Sans SC, Arial, sans-serif">
+    <text x="64" y="70" font-size="34" font-weight="720" letter-spacing="-0.5" fill="#1F2430">记忆层次</text>
+    <text x="64" y="98" font-size="16" fill="#6B6470">不同职责、不同生命周期，共同组成一条可追溯的证据链。</text>
+
+    <line x1="92" y1="168" x2="92" y2="504" stroke="#D9C7D7" stroke-width="3"/>
+
+    <g>
+      <circle cx="92" cy="174" r="12" fill="#F4C84A"/>
+      <rect x="124" y="126" width="566" height="96" rx="18" fill="#FFFFFF" stroke="#E8D8C8"/>
+      <rect x="124" y="126" width="8" height="96" rx="4" fill="#F4C84A"/>
+      <text x="158" y="164" font-size="20" font-weight="700" fill="#1F2430">Working State</text>
+      <text x="158" y="194" font-size="15" fill="#6B6470">当前会话中的问题地图与临时重构</text>
+      <text x="596" y="164" font-size="12" font-weight="700" letter-spacing="0.8" fill="#8E5A7D">临时状态</text>
+    </g>
+
+    <g>
+      <circle cx="92" cy="284" r="12" fill="#F7B7C8"/>
+      <rect x="124" y="236" width="566" height="96" rx="18" fill="#FFFFFF" stroke="#E8D8C8"/>
+      <rect x="124" y="236" width="8" height="96" rx="4" fill="#F7B7C8"/>
+      <text x="158" y="274" font-size="20" font-weight="700" fill="#1F2430">Session Record</text>
+      <text x="158" y="304" font-size="15" fill="#6B6470">一次已结束对话的不可变摘要</text>
+      <text x="596" y="274" font-size="12" font-weight="700" letter-spacing="0.8" fill="#8E5A7D">证据记录</text>
+    </g>
+
+    <g>
+      <circle cx="92" cy="394" r="13" fill="#8E5A7D"/>
+      <rect x="124" y="346" width="566" height="96" rx="18" fill="#FFFFFF" stroke="#8E5A7D" stroke-width="2"/>
+      <rect x="124" y="346" width="8" height="96" rx="4" fill="#8E5A7D"/>
+      <text x="158" y="384" font-size="20" font-weight="750" fill="#1F2430">Thinking Profile</text>
+      <text x="158" y="414" font-size="15" fill="#6B6470">用户确认后的长期思维模型</text>
+      <rect x="566" y="366" width="96" height="28" rx="14" fill="#EEE9F3"/>
+      <text x="586" y="385" font-size="12" font-weight="750" letter-spacing="0.7" fill="#8E5A7D">用户确认</text>
+    </g>
+
+    <g>
+      <circle cx="92" cy="504" r="12" fill="#E97862"/>
+      <rect x="124" y="456" width="566" height="96" rx="18" fill="#FFFFFF" stroke="#E8D8C8"/>
+      <rect x="124" y="456" width="8" height="96" rx="4" fill="#E97862"/>
+      <text x="158" y="494" font-size="20" font-weight="700" fill="#1F2430">Change Log</text>
+      <text x="158" y="524" font-size="15" fill="#6B6470">对新增、修订、废弃和删除的可追溯记录</text>
+      <text x="596" y="494" font-size="12" font-weight="700" letter-spacing="0.8" fill="#8E5A7D">可审计</text>
+    </g>
+
+    <g>
+      <rect x="758" y="132" width="378" height="420" rx="24" fill="#FFFFFF" stroke="#E8D8C8"/>
+      <circle cx="814" cy="188" r="25" fill="#FCE7E2"/>
+      <path d="M 803 188 L 811 196 L 827 178" fill="none" stroke="#E97862" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="858" y="183" font-size="13" font-weight="750" letter-spacing="1" fill="#8E5A7D">核心契约</text>
+      <text x="858" y="207" font-size="15" fill="#6B6470">用户始终拥有最终决定权</text>
+
+      <line x1="798" y1="236" x2="1096" y2="236" stroke="#E8D8C8"/>
+
+      <text x="798" y="286" font-size="21" font-weight="700" fill="#1F2430">
+        <tspan x="798" dy="0">Thinking Profile 不是</tspan>
+        <tspan x="798" dy="30">“AI 眼中的用户”。</tspan>
+      </text>
+
+      <rect x="798" y="370" width="298" height="130" rx="16" fill="#FFF9EF" stroke="#F4C84A"/>
+      <text x="820" y="407" font-size="17" font-weight="650" fill="#1F2430">
+        <tspan x="820" dy="0">它是用户当前认可、</tspan>
+        <tspan x="820" dy="27">并允许未来继续修订的</tspan>
+        <tspan x="820" dy="27">思维模型集合。</tspan>
+      </text>
+      <circle cx="820" cy="480" r="5" fill="#F4C84A"/>
+      <circle cx="838" cy="480" r="5" fill="#F7B7C8"/>
+      <circle cx="856" cy="480" r="5" fill="#B8A6C9"/>
+    </g>
+
+    <text x="64" y="610" font-size="13" fill="#6B6470">Session id 提供来源；revision 检查防止过期写入。</text>
+  </g>
+</svg>

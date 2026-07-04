@@ -1,0 +1,21 @@
+schema_version: 1
+profile_revision: 1
+updated_at: "2026-07-04T11:30:00+08:00"
+collaboration_preferences: []
+definitions: []
+working_models:
+  - id: model-negotiated-autonomy
+    status: confirmed
+    evidence:
+      - session-2026-07-04-01
+    label: Negotiated autonomy at work
+    claim: Freedom at work means being able to understand and negotiate constraints, not having no constraints.
+    scope: Evaluating work arrangements
+    supporting_evidence:
+      - session-2026-07-04-01
+    counter_evidence: []
+    supersedes: null
+recurring_inquiry_moves: []
+unresolved_tensions: []
+long_term_questions: []
+
